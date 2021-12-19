@@ -1,20 +1,17 @@
 import React from 'react';
-import {useLocalStorage} from './useLocalStorage';
+import { useLocalStorage } from './useLocalStorage';
 
-const  TodoContext = React.createContext();
-// useLocalStorage = es nuestro hooks
-// TODOS_V1 = lugar donde vamos a guardar+++
-//vamos a traer un objeto para manejar los estado de precarga
-function TodoProvider (props){
+const TodoContext = React.createContext();
+
+function TodoProvider(props) {
     const {
         item: todos,
         saveItem: saveTodos,
         loading,
         error,
     } = useLocalStorage('TODOS_V1', []);
-
     const [searchValue, setSearchValue] = React.useState('');
-
+    const [openModal,setOpenModal] = React.useState(false);
     const completedTodos = todos.filter(todo => !!todo.completed).length;
     const totalTodos = todos.length;
 
@@ -36,16 +33,25 @@ function TodoProvider (props){
         newTodos[todoIndex].completed = true;
         saveTodos(newTodos);
     };
+
     const deleteTodo = (text) => {
         const todoIndex = todos.findIndex(todo => todo.text === text);
         const newTodos = [...todos];
         newTodos.splice(todoIndex, 1);
         saveTodos(newTodos);
     };
-    return(
-        /*
-        * es nuestro provide a llamar a react createconte por defecto me trae estos provider
-        * con dobles llave {{}} paso muchos parametros como objetos*/
+
+    const addTodo = (text) => {
+        const newItem = [...todos];
+        newItem.push({
+          completed: false,
+            text
+        });
+        saveTodos(newItem);
+    };
+
+
+    return (
         <TodoContext.Provider value={{
             loading,
             error,
@@ -56,11 +62,13 @@ function TodoProvider (props){
             searchedTodos,
             completeTodo,
             deleteTodo,
+            addTodo,
+            openModal,
+            setOpenModal,
         }}>
             {props.children}
         </TodoContext.Provider>
     );
 }
 
-
-export  {TodoContext, TodoProvider};
+export { TodoContext, TodoProvider };
