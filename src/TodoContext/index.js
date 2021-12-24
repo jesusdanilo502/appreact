@@ -14,6 +14,7 @@ function TodoProvider(props) {
     const [openModal,setOpenModal] = React.useState(false);
     const completedTodos = todos.filter(todo => !!todo.completed).length;
     const totalTodos = todos.length;
+    const text = 'paso este texto con un context el texto reactivo';
 
     let searchedTodos = [];
 
@@ -65,6 +66,7 @@ function TodoProvider(props) {
             addTodo,
             openModal,
             setOpenModal,
+            text,
         }}>
             {props.children}
         </TodoContext.Provider>

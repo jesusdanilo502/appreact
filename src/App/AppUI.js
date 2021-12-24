@@ -10,7 +10,8 @@ import {TodoForm} from '../TodoForm';
 import {TodosError} from '../TodosError';
 import {TodosLoading} from '../TodosLoading'
 import {EmptyTodos} from '../EmptyTodos';
-import {Title} from '../TodoCounter/Title'
+import {Title} from '../TodoCounter/Title';
+import {TitleStyle} from '../TodoIcon/TitleStyle'
 
 function AppUI() {
     const {
@@ -21,11 +22,13 @@ function AppUI() {
         deleteTodo,
         openModal,
         setOpenModal,
+        text,
     } = React.useContext(TodoContext);
 
     return (
         <React.Fragment>
-            <Title/>     
+            <Title/>   
+            <TitleStyle/>  
             <TodoCounter/>
             <TodoSearch/>
 

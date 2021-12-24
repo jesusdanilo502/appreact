@@ -16,6 +16,30 @@
     top: 12px;
     right: 0;
   }
+  .Icon-container--list {
+  
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  .icono--styleOne {
+    color: green;
+    font-size: 20px;
+  
+  }
+
+   .Icon {
+    color: #fff;
+    margin-left: 35%;
+  }
+
   
   .Icon-svg {
     width: 24px;

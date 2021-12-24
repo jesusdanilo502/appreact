@@ -11,9 +11,10 @@ const iconTypes = {
   "delete": color => (
     <DeleteSVG className="Icon-svg Icon-svg--delete" fill={color} />
   ),
-  "list": color => {
-    <MarketSVG className="Icon-svg Icon-svg--check" fill={color} />
-  }
+  "list": color => (
+    <MarketSVG className="Icon-svg--list" fill={color} />
+  ),
+
 };
 
 function TodoIcon({ type, color = 'gray', onClick }) {
@@ -27,13 +28,18 @@ function TodoIcon({ type, color = 'gray', onClick }) {
   );
 }
 
-function TodoTitle({ type, color = 'red' }) {
+function TodoTitle({ type, color,text,style }) {
   return (
+    <React.Fragment>
     <span
-      className={`Icon-container Icon-container--${type}`}
+      className={`Icon-container Icon-container--${type} icono--${style === 'completed' ? 'styleOne' : 'styleTwo'} `} 
     >
+     
+        
       {iconTypes[type](color)}
     </span>
+    <label className="Icon">{text}</label>
+    </React.Fragment>
   );
 }
 
