@@ -31,7 +31,7 @@ function useLocalStorage(itemName, initialValue) {//recibiendo argumentos
             } catch (error) {
                 setItem(error);
             }
-        }, 1000);
+        }, 3000);
     });
     // funcion para guardar o actualizar los cambios en mi local storage o en mi hook
     const saveItem = (newItem) => {
@@ -49,6 +49,7 @@ function useLocalStorage(itemName, initialValue) {//recibiendo argumentos
         item,
         saveItem,
         loading,
+        error,
     };
 }
 

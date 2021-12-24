@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0fe727b-37e9-471d-ad79-d2a830cb79bb" name="Default Changelist" comment="maquetation terminate">
+    <list default="true" id="f0fe727b-37e9-471d-ad79-d2a830cb79bb" name="Default Changelist" comment="css styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/AppUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/AppUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoContext/useLocalStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoContext/useLocalStorage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoCounter/TodoCounter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoCounter/TodoCounter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoCounter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoCounter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoIcon/TodoIcon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoIcon/TodoIcon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoIcon/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoIcon/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TodoItem/TodoItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoItem/TodoItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TodoSearch/TodoSearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoSearch/TodoSearch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodosLoading/TodosLoading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodosLoading/TodosLoading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodosLoading/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodosLoading/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="react" />
         <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
@@ -35,7 +45,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="22PhhUkZGiY5OmlaDb36y1vM36a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,7 +91,14 @@
       <workItem from="1639906469310" duration="5359000" />
       <workItem from="1639911853454" duration="980000" />
       <workItem from="1639912860107" duration="129000" />
-      <workItem from="1639913013149" duration="6712000" />
+      <workItem from="1639913013149" duration="7492000" />
+      <workItem from="1639920525630" duration="3748000" />
+      <workItem from="1640001591603" duration="9411000" />
+      <workItem from="1640015357476" duration="1525000" />
+      <workItem from="1640036266328" duration="4103000" />
+      <workItem from="1640042948292" duration="190000" />
+      <workItem from="1640096862245" duration="599000" />
+      <workItem from="1640348807100" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="project react">
       <created>1639912345129</created>
@@ -95,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639919123447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="css styles">
+      <created>1639919867536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639919867536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project react" />
     <MESSAGE value="maquetation terminate" />
-    <option name="LAST_COMMIT_MESSAGE" value="maquetation terminate" />
+    <MESSAGE value="css styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="css styles" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
