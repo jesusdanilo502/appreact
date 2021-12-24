@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/appreact/static/css/main.5ea84f1b.chunk.css",
-    "main.js": "/appreact/static/js/main.f5d683c7.chunk.js",
-    "main.js.map": "/appreact/static/js/main.f5d683c7.chunk.js.map",
+    "main.css": "/appreact/static/css/main.4a58395b.chunk.css",
+    "main.js": "/appreact/static/js/main.344d3ac6.chunk.js",
+    "main.js.map": "/appreact/static/js/main.344d3ac6.chunk.js.map",
     "runtime-main.js": "/appreact/static/js/runtime-main.d399e772.js",
     "runtime-main.js.map": "/appreact/static/js/runtime-main.d399e772.js.map",
     "static/js/2.bb974594.chunk.js": "/appreact/static/js/2.bb974594.chunk.js",
     "static/js/2.bb974594.chunk.js.map": "/appreact/static/js/2.bb974594.chunk.js.map",
     "index.html": "/appreact/index.html",
-    "static/css/main.5ea84f1b.chunk.css.map": "/appreact/static/css/main.5ea84f1b.chunk.css.map",
+    "static/css/main.4a58395b.chunk.css.map": "/appreact/static/css/main.4a58395b.chunk.css.map",
     "static/js/2.bb974594.chunk.js.LICENSE.txt": "/appreact/static/js/2.bb974594.chunk.js.LICENSE.txt",
     "static/media/check.fa4fb594.svg": "/appreact/static/media/check.fa4fb594.svg",
     "static/media/delete.331149da.svg": "/appreact/static/media/delete.331149da.svg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.d399e772.js",
     "static/js/2.bb974594.chunk.js",
-    "static/css/main.5ea84f1b.chunk.css",
-    "static/js/main.f5d683c7.chunk.js"
+    "static/css/main.4a58395b.chunk.css",
+    "static/js/main.344d3ac6.chunk.js"
   ]
 }
